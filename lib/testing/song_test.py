@@ -50,3 +50,4 @@ class TestSong:
         assert(Song.artist_count["Beyonce"] == 1)
         assert(Song.artist_count["Nirvana"] == 1)
         assert(Song.artist_count["Hall and Oates"] == 2)
+        assert(Song.artists_count == Song.artist_count)
